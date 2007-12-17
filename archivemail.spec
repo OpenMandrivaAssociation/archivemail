@@ -14,7 +14,6 @@ BuildRequires:  python-devel
 BuildRequires:  docbook-dtd30-sgml
 BuildRequires:  docbook-utils
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description 
 archivemail is a tool written in Python for archiving and compressing old email
