@@ -1,6 +1,6 @@
 %define name    archivemail
 %define version 0.7.2
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:           %{name}
 Version:        %{version}
@@ -13,6 +13,7 @@ Source:         http://prdownloads.sourceforge.net/archivemail/%{name}-%{version
 BuildRequires:  python-devel
 BuildRequires:  docbook-dtd30-sgml
 BuildRequires:  docbook-utils
+Requires:       python
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
