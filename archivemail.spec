@@ -1,6 +1,6 @@
 %define name    archivemail
-%define version 0.7.2
-%define release %mkrel 5
+%define version 0.8.0
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
