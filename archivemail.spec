@@ -1,6 +1,6 @@
 %define name    archivemail
-%define version 0.8.2
-%define release %mkrel 2
+%define version 0.9.0
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -32,7 +32,7 @@ delete old email.
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/%py_sitedir
-./setup.py install --root=%{buildroot} --install-data=usr/share
+./setup.py install --root=%{buildroot}
 
 %clean
 rm -rf %{buildroot}
