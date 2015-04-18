@@ -36,7 +36,7 @@ export LDFLAGS="$LDFLAGS -lpython2.7"
 %install
 
 mkdir -p %{buildroot}%{py2_puresitedir}
-python setup.py install --root=%{buildroot}
+python2 setup.py install --root=%{buildroot}
 
 %files
 %doc COPYING FAQ README CHANGELOG TODO
