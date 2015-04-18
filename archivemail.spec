@@ -41,5 +41,5 @@ python2 setup.py install --root=%{buildroot}
 %doc COPYING FAQ README CHANGELOG TODO
 %{_bindir}/*
 %{_mandir}/man1/*
-%{py2_puresitedir}/%{name}-%{version}-py2.7.egg-info.egg-info
+%{py2_puresitedir}/%{name}-%{version}-py2.7.egg-info
 
