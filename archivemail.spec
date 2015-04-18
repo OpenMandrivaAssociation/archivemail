@@ -29,7 +29,6 @@ delete old email.
 %build
 ln -s %{_bindir}/python2 python
 export PATH=`pwd`:$PATH
-export LDFLAGS="$LDFLAGS -lpython2.7"
 
 %{__make} archivemail.1
 
