@@ -35,12 +35,12 @@ export LDFLAGS="$LDFLAGS -lpython2.7"
 
 %install
 
-mkdir -p %{buildroot}/%py2_sitedir
-%__python2 setup.py install --root=%{buildroot}
+mkdir -p %{buildroot}%{py2_puresitedir}
+python setup.py install --root=%{buildroot}
 
 %files
 %doc COPYING FAQ README CHANGELOG TODO
 %{_bindir}/*
 %{_mandir}/man1/*
-%py2_sitedir/*.egg-info
+%{py2_puresitedir}/%{name}-%{version}-py2.7.egg-info.egg-info
 
