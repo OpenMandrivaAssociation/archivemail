@@ -8,7 +8,7 @@ Release:        %{release}
 License:        GPL
 Summary:        A tool for archiving and compressing old email
 Group:          System/Servers
-URL:            http://archivemail.sourceforge.net/
+URL:            https://archivemail.sourceforge.net/
 Source:         http://prdownloads.sourceforge.net/archivemail/%{name}-%{version}.tar.bz2
 BuildRequires:  python2-devel
 BuildRequires:  docbook-dtd30-sgml
